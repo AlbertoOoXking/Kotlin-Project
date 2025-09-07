@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startScreenFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.albert.capstoneproject.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.albert.capstoneproject.fragments.ProductDetailFragment"
+        android:label="fragment_product_detail"
+        tools:layout="@layout/fragment_product_detail" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.albert.capstoneproject.fragments.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/orderFragment"
+        android:name="com.albert.capstoneproject.fragments.OrderFragment"
+        android:label="fragment_order"
+        tools:layout="@layout/fragment_order" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.albert.capstoneproject.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_profileInfoFragment"
+            app:destination="@id/profileInfoFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_addressInfoFragment"
+            app:destination="@id/addressInfoFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_favouritesFragment"
+            app:destination="@id/favouritesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.albert.capstoneproject.FireBase.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.albert.capstoneproject.FireBase.RegisterFragment"
+        android:label="RegisterFragment" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/startScreenFragment"
+        android:name="com.albert.capstoneproject.FireBase.StartScreenFragment"
+        android:label="fragment_start_screen"
+        tools:layout="@layout/fragment_start_screen" />
+    <fragment
+        android:id="@+id/profileInfoFragment"
+        android:name="com.albert.capstoneproject.fragments.ProfileInfoFragment"
+        android:label="fragment_profile_info"
+        tools:layout="@layout/fragment_profile_info" />
+    <fragment
+        android:id="@+id/addressInfoFragment"
+        android:name="com.albert.capstoneproject.fragments.AddressInfoFragment"
+        android:label="AddressInfoFragment" />
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="com.albert.capstoneproject.fragments.FavouritesFragment"
+        android:label="fragment_favourites"
+        tools:layout="@layout/fragment_favourites" />
+</navigation>
