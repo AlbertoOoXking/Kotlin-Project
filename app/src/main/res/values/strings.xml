@@ -1,3 +1,30 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Capstone Project</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="welcomeSentence"> Welcome to LoboShop, your ultimate shopping companion! Discover amazing deals, shop effortlessly, and enjoy a seamless experience tailored just for you.</string>
+    <string name="search">Search</string>
+    <string name="all">All</string>
+    <string name="electronics">Electronics</string>
+    <string name="jewelery">Jewelery</string>
+    <string name="men_clothing">Men_clothing</string>
+    <string name="women_s_clothing">Women\'s_clothing</string>
+    <string name="filter">Filter</string>
+    <string name="done">Done</string>
+    <string name="order">Order</string>
+    <string name="overall">Overall:</string>
+    <string name="personal_information">PERSONAL INFORMATION</string>
+    <string name="cancel">Cancel</string>
+    <string name="delivery_details">Delivery Details</string>
+    <string name="name">Name</string>
+    <string name="lastname">LastName</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="payment_methode">PAYMENT METHODE</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="delivery_address">DELIVERY ADDRESS</string>
+    <string name="e_mail">E_Mail</string>
 </resources>
+
+
